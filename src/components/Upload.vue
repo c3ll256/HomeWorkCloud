@@ -131,10 +131,11 @@ export default {
             "/" +
             this.info.stu_id +
             "/" +
-            DayJs().format("YYYY-DD-MM-HH-mm-ss") +
             this.info.stu_id +
             "-" +
-            this.info.stu_name,
+            this.info.stu_name +
+            "-date-" +
+            DayJs().format("YYYY-DD-MM-HH-mm-ss"),
           StorageClass: "STANDARD",
           Body: this.info.fileInfo, // 上传文件对象
           onProgress: function (progressData, ) {
