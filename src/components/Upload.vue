@@ -130,8 +130,6 @@ export default {
             this.info.selectedWork +
             "/" +
             this.info.stu_id +
-            "/" +
-            this.info.stu_id +
             "-" +
             this.info.stu_name +
             "-date-" +
